@@ -2,7 +2,7 @@
 
 ## Project/Goals
 City of Montreal is the largest city in Quebec province of Canada. Montreal has been named as one of the most bike friendly city in North America by Copenhagen Index, with bike paths to encourage economical and ecological transportation. Bixi is the popular public self service bicycle sharing system in Montreal with station across the city. The purpose of the project is to explore data from the bike sharing system and examine their possible impact as a mean of transportation to support local lifestyles in Montreal. In the project the distribution of bike station across the city across different point of interests (POI) will be examined.
-The technical for this project is to explore and utilize API get request extract data from different websites. Using Pandas to perform data 
+The technical goal for this project is to explore API documentation and utilize API get request extract data from different websites. The response provide practice to utilize Pandas and different visualization and statmodel libraries from Python to perform data wrangling and extract information from data. Structured data is then load into an SQL database.
 ## Process
 ### 1. Extract data
 Data obtain by sending get request to citybik.es for bike station information, Foursquare for restaurant and bar data and Yelp for landmarks and recreation data.
