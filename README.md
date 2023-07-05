@@ -18,7 +18,7 @@ A database of bike share was created with the table of station inside using ```s
 Using seaborn and statsmodel libraries in python to then analyzed the data using descriptive statistics and visualizations.
 
 ## Results
-There are 762 bike stations across the city of Montreal which more bike available around restaurant and bar than landmark and outdoor. 
+There are 762 bike stations across the city of Montreal which more bike available around restaurant and bar than landmark and outdoor. Regression model reject the null hypothesis that number of available are not evenly distributed across the different point of interest. 
 
 ## Challenges 
 1. The bug in the for loop of the api request, for a beginner, this might be hard to catch since the request will return a sucessful response and it can still be transformed into a dataframe. There is a direpancies in the data for the bike stations and POI, 762 bike stations vs total 50 restaurants surrounded each bike stations across Montreal. If any data loading and transformation outside of the for loop, it only return the data from the most recent get request which yield the smaller amount of POI. A possible solution is to loop the transformation and paste it to a list.
